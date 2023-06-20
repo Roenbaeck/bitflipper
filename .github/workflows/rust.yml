@@ -59,7 +59,7 @@ jobs:
     needs: test
     runs-on: ${{ matrix.OS }}
     env:
-      NAME: unstruct # change with the name of your project
+      NAME: bitflipper # change with the name of your project
       TARGET: ${{ matrix.TARGET }}
       OS: ${{ matrix.OS }}
     steps:
